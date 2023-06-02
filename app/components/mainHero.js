@@ -5,7 +5,7 @@ export default function Hero(){
 
     return(
         <div className="text-black h-[600px]">
-            <div className="max-w-[800px] sm:mt-[5px] md:mt-[20px] w-full h-full mx-auto text-center flex flex-col justify-center">
+            <div className="max-w-[800px] sm:mt-[10px] md:mt-[20px] w-full h-full mx-auto text-center flex flex-col justify-center">
                 <p className=" text-xl text-forest font-bold p-2">내 손안의 모든 숲</p>
                 <h1 className="md:text-7xl sm:text-6xl text-4xl font-bold md:py-6 ">숲인원에서 경험해보세요</h1>
                 <div className="flex justify-center items-center">

@@ -1,6 +1,7 @@
 'use client'
 import React,{useState,useEffect} from "react"
 import {AiOutlineClose,AiOutlineMenu} from "react-icons/ai"
+import Image from "next/image";
 export default function Navbar(){
     const [mounted, setMounted] = useState(false);
     useEffect(() => {
@@ -16,8 +17,12 @@ export default function Navbar(){
     return( mounted && ( 
         //  mb-16 bg-auto bg-no-repeat
         <div className="flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-forest border-b-2 border-[#396653]">
+        
+        <div className="md:w-[30%] flex items-center sm:w-[100%]">
+        <Image src={'logo.svg'} width={50} height={50} alt="logo"/>
+        <h1 className="text-2xl font-bold text-[#396653]  md:ml-5 ml-[100px]">숲인원</h1>
+        </div>
 
-        <h1 className="w-[30%] text-2xl font-bold text-[#396653]">숲인원</h1>
         <ul className="hidden md:flex">
             <li className="p-4">홈</li>
             <li className="p-4">다운로드</li>
