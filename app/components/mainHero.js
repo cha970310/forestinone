@@ -1,16 +1,22 @@
 'use client'
 import React from "react"
 import Typed from "react-typed"
+import localFont from 'next/font/local'
+const myFont = localFont({
+  className:'logo-font',
+  src: '../../public/fonts/JSArirangPPURI.otf',
+  display: 'swap',})
+console.log(myFont.className)
 export default function Hero(){
 
     return(
         <div className="text-black h-[600px]">
             <div className="max-w-[800px] sm:mt-[10px] md:mt-[20px] w-full h-full mx-auto text-center flex flex-col justify-center">
                 <p className=" text-xl text-forest font-bold p-2">내 손안의 모든 숲</p>
-                <h1 className="md:text-7xl sm:text-6xl text-4xl font-bold md:py-6 ">숲인원에서 경험해보세요</h1>
+                <h1 className="md:text-6xl sm:text-5xl text-3xl font-bold md:py-6 "><span className="md:text-7xl sm:text-6xl text-4xl font-bold md:py-6 __className_c6c146 ">숲인원</span>에서 경험해보세요</h1>
                 <div className="flex justify-center items-center">
-                <Typed className="md:text-5xl sm-text-4xl text-xl font-bold pl-3 py-3" strings={['귀산촌 정보도','직거래 장터도','최신 정부보조금도']} typeSpeed={100} backSpeed={0} startDelay={1000} backDelay={500} loop/>
-                    <p className="md:text-5xl sm:text-4xl text-xl font-bold text-[#396653]"> 
+                <Typed className="md:text-4xl sm-text-3xl text-2xl font-bold pl-3 py-3" strings={['귀산촌 정보도','직거래 장터도','최신 정부보조금도']} typeSpeed={100} backSpeed={0} startDelay={1000} backDelay={500} loop/>
+                    <p className="md:text-5xl sm:text-4xl text-xl font-bold text-[#396653] __className_c6c146"> 
                         숲인원</p> 
                         
                 </div>
