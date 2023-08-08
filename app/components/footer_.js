@@ -6,7 +6,7 @@ export default function Footer(){
         <div className="max-w-[1240px] bg-white mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8  text-[#396653]" >
             <div>
             <h1 className="w-full text-3xl font-bold text-[#396653]">숲인원</h1>
-            <p className="py-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus purus urna, vehicula sit amet scelerisque sit amet, convallis vitae arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla leo neque, mollis vel leo sed, maximus accumsan tortor. Sed ut aliquam lectus. Cras tellus lacus, luctus non nibh sed, efficitur hendrerit purus. Quisque cursus, velit eu imperdiet sagittis, eros enim egestas erat, vitae scelerisque dui mi vitae tellus. Pellentesque tincidunt semper urna laoreet volutpat. Morbi facilisis elementum sapien at feugiat.</p>
+            <p className="py-4">숲인원에서 모든 것을 경험해보세요.</p>
             <div className="flex justify-between my-6 md:w-[75%]">
                 
             <FaDribbbleSquare size={30}/>
@@ -29,33 +29,33 @@ export default function Footer(){
                 </div>
                 <div>
                     <h6 className="font-medium text-[#396653]">다운로드</h6>
-                    <ul>
+                    {/* <ul>
                         <li className="py-2 text-sm">다운로드</li>
                         <li className="py-2 text-sm">다운로드</li>
                         <li className="py-2 text-sm">다운로드</li>
                         <li className="py-2 text-sm">다운로드</li>
                         <li className="py-2 text-sm">다운로드</li>
-                    </ul>
+                    </ul> */}
                 </div>
                 <div>
                     <h6 className="font-medium text-[#396653]">커뮤니티</h6>
-                    <ul>
+                    {/* <ul>
                         <li className="py-2 text-sm">커뮤니티</li>
                         <li className="py-2 text-sm">커뮤니티</li>
                         <li className="py-2 text-sm">커뮤니티</li>
                         <li className="py-2 text-sm">커뮤니티</li>
                         <li className="py-2 text-sm">커뮤니티</li>
-                    </ul>
+                    </ul> */}
                 </div>
                 <div>
                     <h6 className="font-medium text-[#396653]">블로그</h6>
-                    <ul>
+                    {/* <ul>
                         <li className="py-2 text-sm">블로그</li>
                         <li className="py-2 text-sm">블로그</li>
                         <li className="py-2 text-sm">블로그</li>
                         <li className="py-2 text-sm">블로그</li>
                         <li className="py-2 text-sm">블로그</li>
-                    </ul>
+                    </ul> */}
                 </div>
             </div>
         </div>
