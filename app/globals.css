@@ -6,6 +6,19 @@ body{
   background-color: white;
 }
 
+@media (min-width: 300px) {
+  .image-container {
+    width: 250px;
+    
+  }
+}
+
+@media (min-width: 768px) {
+  .image-container {
+    width: 400px;
+    
+  }
+}
 .text-forest{
   color: #396653;
 }
