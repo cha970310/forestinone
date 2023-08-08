@@ -7,7 +7,7 @@ export default function Footer(){
         <div className="max-w-[1240px] bg-white mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8  text-[#396653]" >
             <div>
             <h1 className="w-full text-3xl font-bold text-[#396653]">숲인원</h1>
-            <p className="py-4">"산촌관계인구 확대를 위한 올인원 커뮤니티 플랫폼"</p>
+            <p className="py-4">&quot;산촌관계인구 확대를 위한 올인원 커뮤니티 플랫폼&quot;</p>
             <div className="flex justify-between my-6 md:w-[75%]">
                 
             <FaDribbbleSquare size={30}/>
